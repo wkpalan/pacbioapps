@@ -5,13 +5,14 @@ A container for installing and running PacBio applications using Conda.
 
 To use the container:
 ```
-module load pacbioapps/latest
+$ module load pacbioapps/latest
 ```
 
 Use the included wrapper script ```runpbapps``` to run commands (e.g., blasr):
 
 ```
-runpbapps blasr --version
+$ runpbapps blasr --version
+blasr	5.3.2
 ```
 
 
