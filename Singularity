@@ -37,5 +37,5 @@ This container runs includes several PacBio apps.
     export PATH="/opt/miniconda3/bin:$PATH"
 
     # install pacbio apps
-    conda install -c bioconda pbbam blasr lima pbcopper bam2fastx
+    conda install -c bioconda pbbam blasr lima pbcopper bam2fastx blasr_tools
 
