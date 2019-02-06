@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: ubuntu:16.04
+From: ubuntu:18.04
 
 %labels
 Maintainer Matthew Flister
@@ -37,5 +37,7 @@ This container runs includes several PacBio apps.
     export PATH="/opt/miniconda3/bin:$PATH"
 
     # install pacbio apps
-    conda install -c bioconda pbbam blasr lima pbcopper bam2fastx 
+    conda install -c bioconda pbccs bax2bam lima bam2fastx pbmm2
+
+    chmod a+rwx /opt/miniconda3/bin
 
