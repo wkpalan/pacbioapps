@@ -38,6 +38,4 @@ This container runs includes several PacBio apps.
 
     # install pacbio apps
     conda install -c bioconda pbccs bax2bam lima bam2fastx pbmm2
-
-    chmod a+rwx /opt/miniconda3/bin
-
+    mkdir /media/data
